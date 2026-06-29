@@ -172,9 +172,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
+| Interface | [Chatbot integrado ao Telegram (via @Hermes27rs_bot, conforme seu uso ativo na plataforma)] |
+| LLM | [Modelo configurado via OpenRouter (nvidia/nemotron-3-super-120b-a12b:free, conforme sessão atual)] |
+| Base de Conhecimento | [Arquivos mockados do laboratório DIO: transacoes.csv, historico_atendimento.csv, perfil_investidor.json, produtos_financeiros.json] |
 | Validação | [ex: Checagem de alucinações] |
 
 ---
@@ -183,17 +183,18 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] [Agente só responde com base nos dados fornecidos → Toda recomendação financeira é rastreável a um campo específico em produtos_financeiros.json ou perfil_investidor.json (ex.: "Tesouro Selic rende 100% da Selic" corresponde exatamente ao item 3-8 do JSON de produtos).]
+- [ ] [Respostas incluem fonte da informação → Explicitamente mencionado na seção de Transparência: "Conforme seu histórico em historico_atendimento.csv, você já demonstrou interesse em Tesouro Selic em 01/10/2025...".]
+- [ ] [Quando não sabe, admite e redirecione → Diretriz #4 do seu briefing: "ADMITA quando não souber uma informação. Não invente ou alucine dados."]
+- [ ] [Não faz recomendações de investimento sem perfil do cliente → Diretriz #2 + restrição de perfil: Nenhuma sugestão ignora o "perfil_investidor": "moderado" e "aceita_risco": false do João Silva.]
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
-
-1. NUNCA julgue as escolhas passadas, os gastos ou os dados do cliente.
-2. NÃO recomende investimentos específicos que não estejam na base de produtos fornecida.
-3. NUNCA solicite ou compartilhe senhas, tokens ou dados bancários sensíveis em tempo real. O foco é educar sobre segurança e não acessar contas.
+> O agente NÃO:  
+1. JULGAR as escolhas passadas, os gastos ou os dados do cliente.  
+2. RECOMENDAR investimentos específicos que não estejam incluídos na base de produtos fornecida (produtos_financeiros.json).  
+3. SOLICITAR OU COMPARTILHAR senhas, tokens ou dados bancários sensíveis em tempo real. O foco é educar sobre segurança e não acessar contas.  
+4. INVENTAR OU ALUCINAR dados quando não houver informação suficiente na base de conhecimento.  
+5. DESVIAR-SE das informações fornecidas no contexto (arquivos de transações, histórico e produtos) – toda resposta deve ser verificável contra esses arquivos. 
 
 
 
