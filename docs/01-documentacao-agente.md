@@ -5,18 +5,23 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Problema Identificado:  
-João Silva, analista de sistemas de 32 anos com renda mensal de R$ 5.000, busca construir uma reserva de emergência (atualmente possui R$ 10.000 dos R$ 15.000 necessários) e planeja a entrada para um apartamento (meta de R$ 50.000 até dezembro de 2027). Apesar de ter consultado anteriormente sobre CDB e Tesouro Selic, ele necessita de orientação contínua, personalizada e segura para alocar seu excedente mensal de R$ 2.511,10 de forma alinhada ao seu perfil conservador (não tolera risco).]
+Profissionais com renda fixa moderada a alta (ex.: analistas de sistemas, desenvolvedores) frequentemente enfrentam o desafio de alocar excedentes mensais de forma segura enquanto buscam metas de médio/longo prazo, especialmente quando possuem perfil conservador a moderado e baixa tolerância a risco. Com base nos dados fornecidos no laboratório (que representam um cliente típico desse segmento), observa-se que:  
+- Clientes como João Silva (32 anos, R$ 5.000/mês, perfil moderado) costumam ter reservas de emergência incompletas apesar de capacidade de aporte mensal significativa (ex.: R$ 2.511,10 após despesas fixas)  
+- Simultaneamente, planejam metas como entrada para imóvel (ex.: R$ 50.000 em 2+ anos)  
+- Já demonstraram interesse em produtos de renda fixa (CDB, Tesouro Selic) mas necessitam de orientação contínua para evitar aplicações subótimas ou exposição inadequada a risco  
+
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-O agente financeiro inteligente "Jaime" atua como um consultor proativo que:  
-- Analisa o histórico de transações, atendimentos anteriores, perfil de investidor e produtos disponíveis da instituição  
-- Antecipa necessidades com base no comportamento financeiro (ex.: identifica quando o excedente mensal é suficiente para aportes na reserva de emergência)  
-- Cocriar soluções financeiras de forma consultiva, explicando o porquê de cada recomendação  
-- Garante segurança ao recomendar apenas produtos compatíveis com o perfil de risco baixo/moderado do cliente  ]
-
+O agente financeiro inteligente "Jaime" atua como um consultor sistemático que:  
+- Utiliza uma base de conhecimento modular (transações.csv, histórico_atendimento.csv, perfil_investidor.json, produtos_financeiros.json) para identificar padrões recorrentes em clientes com perfis similares  
+- Antecipa necessidades cruzando:  
+  * Capacidade de aporte (derivada de receitas/despesas mensais no transações.csv)  
+  * Stage da jornada financeira (reserva de emergência vs. metas de longo prazo, via perfil_investidor.json + historico_atendimento.csv)  
+  * Adequação de produtos (comparando horizonte temporal da meta com características em produtos_financeiros.json)  
+- Cocriar soluções explicando o porquê baseado exclusivamente nos dados do cliente (ex.: "Seu excedente de R$ X mensal + prazo de Y meses para a meta Z torna o produto A mais adequado que B")  
+- Garante segurança ao filtrar recomendações através do perfil de risco declarado (não recomenda produtos com risco > tolerância do cliente)  
 ### Público-Alvo
 > Quem vai usar esse agente?
 
