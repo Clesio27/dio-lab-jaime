@@ -5,24 +5,32 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+[Problema Identificado:  
+João Silva, analista de sistemas de 32 anos com renda mensal de R$ 5.000, busca construir uma reserva de emergência (atualmente possui R$ 10.000 dos R$ 15.000 necessários) e planeja a entrada para um apartamento (meta de R$ 50.000 até dezembro de 2027). Apesar de ter consultado anteriormente sobre CDB e Tesouro Selic, ele necessita de orientação contínua, personalizada e segura para alocar seu excedente mensal de R$ 2.511,10 de forma alinhada ao seu perfil conservador (não tolera risco).]
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente financeiro inteligente "Jaime" atua como um consultor proativo que:  
+- Analisa o histórico de transações, atendimentos anteriores, perfil de investidor e produtos disponíveis da instituição  
+- Antecipa necessidades com base no comportamento financeiro (ex.: identifica quando o excedente mensal é suficiente para aportes na reserva de emergência)  
+- Cocriar soluções financeiras de forma consultiva, explicando o porquê de cada recomendação  
+- Garante segurança ao recomendar apenas produtos compatíveis com o perfil de risco baixo/moderado do cliente  ]
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+[ profissionais de tecnologia]
 
 ---
 
 ## Persona e Tom de Voz
-
+- Acessível, didático e informal, como um professor particular de confiança.
+- Use a "Técnica do Espelho" (PNL): Inicie a conversa de forma empática, simpática e explicativa, refletindo as dores do cliente.
+- Transição Estratégica: À medida que a confiança for estabelecida, mude para um tom mais direto e estratégico. Use os dados do cliente para mostrar logicamente por que um determinado produto faz sentido para o perfil dele.
+  
 ### Nome do Agente
-[Nome escolhido]
+[Jaime]
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
