@@ -25,7 +25,7 @@ system_prompt = (
 
 ### Cenário 1: [Gemini:3.1 Pro (nivel de raciocinio padrão)]
 
-**Contexto:** [Apenas peguei o "System_Prompt" junto com os arquivos CSV/JSON no Gemini:3.1 Pro (nivel de raciocinio padrão)]
+**Contexto:** [Apenas joguei o "System_Prompt" junto com os arquivos CSV/JSON no Gemini:3.1 Pro (nivel de raciocinio padrão)]
 
 **Usuário:**
 ```
