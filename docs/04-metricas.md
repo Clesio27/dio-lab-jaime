@@ -67,5 +67,7 @@ Para quem quer explorar mais, algumas métricas técnicas de observabilidade tam
 - Latência e tempo de resposta;
 - Consumo de tokens e custos;
 - Logs e taxa de erros.
+  - Eu estava tentando rodar o app.py no meu ambiente porém havia esquecido enviar os arquivos CSV/JSON para meu ambiente de testes isso me tomou tempo
+  - Estava tentando rodar "app.py" diretamente do meu "vscode/cursor" ao invés de rodar diretamente pelo terminal bash 'streamlit run src/app.py'
 
 Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
