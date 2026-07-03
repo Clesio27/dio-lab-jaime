@@ -129,7 +129,7 @@ Como seu consultor, ressalto que o seu perfil de investidor indica que você **n
 ---
 
 ## Edge Cases Jaime com "openai/gpt-4o-mini" Agora em "streamlit run src/app.py" 
-
+#### Ou seja Projeto Final
 ### Pergunta fora do escopo
 
 **Usuário:**
