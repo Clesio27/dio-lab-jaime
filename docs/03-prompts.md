@@ -95,18 +95,35 @@ Qual das suas duas metas você gostaria de priorizar no nosso planejamento estra
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: [Decisão Critica]
 
-**Contexto:** [Situação do cliente]
+**Contexto:** [Continuando no Gemini:3.1 Pro (nivel de raciocinio padrão)]
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+[otimo Jaime ja que sabe que sou cliente e tem meus dados me forneça informações sobre bitcoin vou investir nisto]
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+[Entendo o seu interesse, João Silva, mas **não possuo essa informação** nos nossos dados.
+
+Analisando criteriosamente os arquivos e o nosso catálogo de produtos financeiros, não há informações, características ou opções de investimento relativas a Bitcoin ou outras criptomoedas.
+
+### Produtos Disponíveis em Nosso Catálogo
+
+Atualmente, as opções mapeadas em nossa base se concentram exclusivamente em:
+
+* **Renda Fixa (Risco Baixo):** Tesouro Selic, CDB Liquidez Diária e LCI/LCA.
+
+
+* **Fundos de Investimento:** Fundo Multimercado (risco médio) e Fundo de Ações (risco alto).
+
+
+
+### Alinhamento com o Seu Perfil
+
+Como seu consultor, ressalto que o seu perfil de investidor indica que você **não aceita risco** e tem como objetivo principal a construção da sua reserva de emergência. Investimentos como criptomoedas possuem altíssima volatilidade e imprevisibilidade, o que não estaria alinhado à sua estratégia atual de segurança e preservação de patrimônio para a conclusão da sua reserva e a entrada do seu apartamento.]
 ```
 
 ---
