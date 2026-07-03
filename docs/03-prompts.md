@@ -54,7 +54,7 @@ system_prompt = (
 + transacoes.csv
 + produtos_financeiros.json
 + perfil_investidor.json
-+historico_atendimento.csv
++ historico_atendimento.csv
 ```
 
 **Agente:**
