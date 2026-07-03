@@ -176,5 +176,5 @@ Como seu consultor, ressalto que o seu perfil de investidor indica que você **n
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- [Rodando apenas o system_prompt com Gemini:3.1 Pro e os arquivos CSV/JSON o Agente foi Exelente em varios cenarios diferentes deixei apenas 2 exemplos com esta LLM apenas para enxugar a documentação.]
+- [Os Exemplos 3 para são são todos extraidos do Agente Jaime escrito em Python com API openrouter rodando () pela inteface ()]
