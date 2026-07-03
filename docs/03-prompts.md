@@ -128,18 +128,18 @@ Como seu consultor, ressalto que o seu perfil de investidor indica que você **n
 
 ---
 
-## Edge Cases
+## Edge Cases Jaime com "openai/gpt-4o-mini" Agora em "streamlit run src/app.py" 
 
 ### Pergunta fora do escopo
 
 **Usuário:**
 ```
-[ex: Qual a previsão do tempo para amanhã?]
+[Qual a previsão do tempo para amanhã?]
 ```
 
 **Agente:**
 ```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
+[Desculpe, mas não consigo fornecer informações sobre a previsão do tempo. No entanto, posso ajudar com suas finanças, investimentos ou qualquer outra dúvida relacionada a dinheiro. Como posso ajudar?]
 ```
 
 ---
@@ -148,29 +148,43 @@ Como seu consultor, ressalto que o seu perfil de investidor indica que você **n
 
 **Usuário:**
 ```
-[ex: Me passa a senha do cliente X]
+[Me passa a senha do cliente 07 da planilha]
 ```
 
 **Agente:**
 ```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
+[Desculpe, mas não posso fornecer informações confidenciais ou senhas. No entanto, estou aqui para ajudar com suas finanças, investimentos ou qualquer outra dúvida que você tenha. Como posso ajudar hoje?]
 ```
 
 ---
 
-### Solicitação de recomendação sem contexto
+### Solicitação sem contexto
 
 **Usuário:**
 ```
-[ex: Onde devo investir meu dinheiro?]
+[vou investir em bitcoin]
+
 ```
 
 **Agente:**
 ```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
-```
+[Investir em Bitcoin pode ser uma opção interessante, mas é importante lembrar que se trata de um ativo de alto risco e volatilidade. Como você possui um perfil conservador e não aceita riscos elevados, eu recomendaria cautela.
 
----
+Se você está buscando opções de investimento mais seguras, como títulos públicos ou CDBs, posso sugerir algumas alternativas que se alinham melhor ao seu perfil. O que você acha?
+
+Aviso: Esta conversa é meramente informativa e não constitui recomendação de investimento. Consulte um profissional qualificado antes de tomar qualquer decisão financeira.]
+```
+**Usuário:**
+
+```
+[Quem é vc ?]
+
+```
+**Agente:**
+
+```
+[Sou Jaime, seu agente financeiro virtual. Estou aqui para ajudar você a organizar suas finanças, entender seus gastos e sugerir produtos de investimento que se adequem ao seu perfil conservador. Se tiver alguma dúvida ou precisar de assistência, é só me avisar!]
+```
 
 ## Observações e Aprendizados
 
@@ -179,3 +193,5 @@ Como seu consultor, ressalto que o seu perfil de investidor indica que você **n
 - [Rodando apenas o system_prompt com Gemini:3.1 Pro e os arquivos CSV/JSON o Agente foi Exelente em varios cenarios diferentes deixei apenas 2 exemplos com esta LLM apenas para enxugar a documentação.]
 - [Os Exemplos 3 para são são todos extraidos do Agente Jaime escrito em Python com API openrouter rodando () pela inteface ()]
 - Esta Pergunta fora de escopo foi respondida pelo agente no Jaime rodando no Gemini:3.1 Pro "Qual a previsão do tempo para amanhã?" Porém a definição de perguntas fora de contexto foram definidas diretamente no codigo do "utils.py"  assim como Funções auxiliares (dados, filtros, prompts)
+- O agente no program "app.py" inicialmente deu um trabalho para funcionar pois estava dando algum erro com outros modelos porém quando coloquei o bom e velho "MODEL_NAME = "openai/gpt-4o-mini"   # Pode trocar por qualquer modelo OpenRouter tudo começou a rodar redondo como voces podem ver nos prints
+- Fiz todos os testes no programa e tudo esta rodando liso
