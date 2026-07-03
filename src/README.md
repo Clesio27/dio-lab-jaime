@@ -2,13 +2,12 @@
 
 Esta pasta contém o código do seu agente financeiro.
 
-## Estrutura Sugerida
+## Estrutura Jaime
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
+├── app.py              # Aplicação principal; Configurações (API keys, etc.)
+├── utils.py            # Funções de apoio ao agente Jaime: (Leitura dos arquivos mockados, etc)
 └── requirements.txt    # Dependências
 ```
 
