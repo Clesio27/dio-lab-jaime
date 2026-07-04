@@ -172,8 +172,8 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [streamlitm (streamlit run src/app.py)] |
-| LLM | [Modelo configurado via OpenRouter (nvidia/nemotron-3-super-120b-a12b:free, conforme sessão atual)] |
+| Interface | [streamlitm ("streamlit run src/app.py")] |
+| LLM | [Modelo configurado via OpenRouter ("openai/gpt-4o-mini")] |
 | Base de Conhecimento | [Arquivos mockados do laboratório DIO: transacoes.csv, historico_atendimento.csv, perfil_investidor.json, produtos_financeiros.json] |
 | Validação | [ex: Checagem de alucinações] |
 
@@ -200,3 +200,4 @@ flowchart TD
 
 
 [Liste aqui as limitações explícitas do agente]
+- Limitações do agente de acorda a LLM adotada herda todas as limitações da LLM Ex: (nvidia/nemotron-3-super-120b-a12b:free) só roda se for feita configurações na temperatura e max tokens 
