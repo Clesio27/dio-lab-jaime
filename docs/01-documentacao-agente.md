@@ -172,7 +172,7 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [Chatbot integrado ao Telegram (via @Hermes27rs_bot, conforme seu uso ativo na plataforma)] |
+| Interface | [streamlitm (streamlit run src/app.py)] |
 | LLM | [Modelo configurado via OpenRouter (nvidia/nemotron-3-super-120b-a12b:free, conforme sessão atual)] |
 | Base de Conhecimento | [Arquivos mockados do laboratório DIO: transacoes.csv, historico_atendimento.csv, perfil_investidor.json, produtos_financeiros.json] |
 | Validação | [ex: Checagem de alucinações] |
