@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+[Não eu usei os dados mocados exatamente como estão; sendo completamente viavel adicionar mais clientes de acordo o João podemos escalar o sistema para um banco real]
 
 ---
 
@@ -29,12 +29,15 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+[Os JSON/CSV são carregados no início da sessão e incluídos no "utils.py" com bibliotecas "import os
+import json
+import pandas as pd
+from typing import List, Dict"]
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+[Sim Apenas nos 2 primeiros exemplos que fiz no "gemini" via Browser, nos demais exemplos os dados CSV/JSON são carregados pelo "utils.py"]
 
 ---
 
