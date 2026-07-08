@@ -94,7 +94,7 @@ Motor de Recomendação:
 - Calcula sugestões de aporte usando dados de transacoes.csv (renda líquida mensal após despesas)  
 
 Gerador de Resposta:  
-- Utiliza um LLM (via API ou modelo local como Ollama) com system prompt rigorosamente definido (ver seção 4)  
+- Utiliza um LLM (via API OpenRouter) com system prompt rigorosamente definido em "app.py" (ver seção 4)  
 - O modelo recebe como contexto:  
   * Pergunta do usuário  
   * Dados relevantes extraídos pelas camadas acima  
@@ -114,8 +114,8 @@ Conforme sugerido no laboratório, pode ser construído com:
 - Frontend: Streamlit (para protótipo rápido) ou Gradio (interface limpa)  
 - Backend: Python com:  
   * pandas para leitura e consulta dos CSV/JSON  
-  * langchain ou similar para orquestração do LLM (se usar API externa)  
-  * Funções auxiliares de validação e filtragem de produtos  
+  * OpenRouter para orquestração do LLM ("openai/gpt-4o-mini")  
+  * Funções auxiliares de validação e filtragem de produtos (utils.py)  
 - Integração: O agente chama as funções de processamento para obter contexto antes de invocar o LLM  
 
 Não requer banco de dados externo – todos os dados são carregados em memória a partir dos arquivos estáticos fornecidos, garantindo reprodutibilidade total.
@@ -160,9 +160,9 @@ Este agente não busca ser o mais criativo ou o mais conversador – seu objetiv
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
+    A[Cliente] -->|Mensagem| B[-Interface-]
+    B --> C[-LLM-]
+    C --> D[-Base de Conhecimento-]
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
@@ -200,4 +200,4 @@ flowchart TD
 
 
 [Liste aqui as limitações explícitas do agente]
-- Limitações do agente de acorda a LLM adotada herda todas as limitações da LLM Ex: (nvidia/nemotron-3-super-120b-a12b:free) só roda se for feita configurações na temperatura e max tokens 
+- Limitações do agente de acordo a LLM adotada herda todas as limitações da LLM Ex: (nvidia/nemotron-3-super-120b-a12b:free) só roda se for feita configurações na temperatura e max tokens 
