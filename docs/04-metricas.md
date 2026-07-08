@@ -43,13 +43,13 @@ Se precisar de mais alguma informação ou ajuda, é só avisar!" Valor baseado 
 - **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
+- **Pergunta:** "Qual a previsão do tempo para amanahã?"
 - **Resposta esperada:** Agente informa que só trata de finanças
 - **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
+- **Pergunta:** "Vou investir em Bitcoin"
+- **Resposta esperada:** O Agente reconhece que o perfil do cliente é conservador e recomenda cautela.
 - **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
