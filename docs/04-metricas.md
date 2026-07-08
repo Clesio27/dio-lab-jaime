@@ -66,14 +66,3 @@ Após os testes, registre suas conclusões:
 
 ---
 
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta; Otimo
-- Consumo de tokens e custos; Baixo com o modelo atual
-- Logs e taxa de erros. 
-  - Eu estava tentando rodar o app.py no meu ambiente porém havia esquecido enviar os arquivos CSV/JSON para meu ambiente de testes isso me tomou tempo
-  - Estava tentando rodar "app.py" diretamente do meu "vscode/cursor" ao invés de rodar diretamente pelo terminal bash 'streamlit run src/app.py'
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
