@@ -70,3 +70,16 @@ Impacto:
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
 [Link do vídeo]
+
+
+---
+
+Como entregar o vídeo
+
+1. Grave a tela (ex: OBS Studio, ShareX ou o recurso integrado do Windows/macOS) enquanto realiza a demonstração descrita acima.  
+2. Edite cortes curtos (máx. 60 s de demonstração) e inclua os slides de problema, solução, diferencial e impacto.  
+3. Exporte em 1080p, formato MP4, tamanho < 100 MB (ideal para upload no Loom/Google Drive/YouTube).  
+4. Cole o link no campo indicado pelo desafio DIO.
+
+Pronto! Agora você tem um roteiro de 3 minutos pronto para gravar o pitch do Jaime e mostrar, de forma concreta, como um agente de IA pode transformar a gestão financeira pessoal. Boa gravação! 🚀 (2/2)
+
