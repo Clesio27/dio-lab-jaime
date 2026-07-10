@@ -7,7 +7,7 @@
 ### 1. O Problema (30 seg)
 > Qual dor do cliente você resolve?
 
-[ “Hoje, milhares de brasileiros têm dificuldade para organizar suas finanças pessoais. Eles acumulam extratos em planilhas, perdem o controle de gastos, não sabem onde investir com segurança e acabam pagando juros desnecessários ou perdendo oportunidades de economia.  ]
+[ “Hoje, milhares de brasileiros têm dificuldade para organizar suas finanças pessoais. Eles acumulam extratos em planilhas, perdem o controle de gastos, não sabem onde investir com segurança e acabam pagando juros desnecessários ou perdendo oportunidades de economia." ]
 
 ### 2. A Solução (1 min)
 > Como seu agente resolve esse problema?
