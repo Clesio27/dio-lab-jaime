@@ -1,6 +1,6 @@
 # Pitch (3 minutos)
 
-> [!TIP] uAUI
+> [!TIP] 
  
 ## Roteiro 
 
