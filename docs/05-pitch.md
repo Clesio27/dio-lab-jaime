@@ -31,7 +31,7 @@
  1. Abra o app – streamlit run src/app.py (já está rodando aqui).  
  2. Carregue os dados de exemplo – os arquivos CSV/JSON da pasta data/ são carregados automaticamente.  
  3. Faça uma pergunta:  
-    - “Quais foram meus maiores gastos em fevereiro?” → Jaime retorna um gráfico de barras (gerado pelo próprio Streamlit) e aponta que 42 % foi em alimentação, sugerindo um limite de R$ 800 para o próximo mês.  
+    - "Quais foram meus maiores gastos em outubro?" → Jaime retorna os top 5 maiores gastos seguido de algo assim. Ex: "Os maiores gastos foram com o aluguel, seguido pelo supermercado e combustível. Se precisar de ajuda para reduzir esses gastos ou planejar melhor suas finanças, estou aqui para ajudar!"  
     - “Quero viajar em dezembro com R$ 5 000. Qual plano de investimento me ajuda a chegar lá?” → Jaime consulta o perfil de investidor conservador, sugere uma aplicação em CDB com 105 % do CDI e mostra o montante acumulado mês a mês.  
     - “Me avise se eu passar do limite de transporte.” → Jaime cria um alerta inteligente que será disparado quando a soma das transações de transporte ultrapassar o limite definido.  
    
