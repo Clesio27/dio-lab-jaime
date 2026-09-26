@@ -1,6 +1,7 @@
 # Pitch (3 minutos)
 
-> [!TIP] 
+> [[Link do vídeo](https://youtu.be/WHbtgMuasbQ)]
+ 
  
 ## Roteiro 
 
